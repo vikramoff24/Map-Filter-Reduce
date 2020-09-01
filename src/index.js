@@ -33,6 +33,13 @@ console.log(newNumbers4);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
 
+var newNumber5 = numbers.reduce(function (accumulator, currentNumber) {
+  //here acumulator takes valur of first index of array and current number takes valure of
+  // 2nd index of an array at first iteration.
+  return accumulator + currentNumber;
+});
+console.log(newNumber5);
+
 //Find - find the first item that matches from an array.
 
 //FindIndex - find the index of the first item that matches.
