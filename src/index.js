@@ -21,6 +21,16 @@ var newNumbers3 = numbers.filter(function (x) {
 });
 console.log(newNumbers3);
 
+//Filter - for each implementation
+
+var newNumbers4 = [];
+numbers.forEach(function (x) {
+  if (x >= 5) {
+    newNumbers4.push(x);
+  }
+});
+console.log(newNumbers4);
+
 //Reduce - Accumulate a value by doing something to each item in an array.
 
 //Find - find the first item that matches from an array.
