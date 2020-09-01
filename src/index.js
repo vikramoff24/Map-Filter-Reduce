@@ -1,3 +1,4 @@
+import emojipedia from "./emojipedia";
 var numbers = [3, 56, 2, 48, 5];
 
 //Map -Create a new array by doing something with each item in an array.
@@ -65,3 +66,12 @@ var newNumbers8 = numbers.findIndex(function (index) {
 });
 
 console.log(newNumbers8);
+
+/////////////////////////////////CHALLENGE////////////////////////////////
+
+var arrDef = emojipedia.map(function (ob) {
+  return ob.meaning.substring(0, 100);
+});
+console.log(arrDef);
+
+/////////////////////////////////////////////////////////////////////////
