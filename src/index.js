@@ -40,6 +40,17 @@ var newNumber5 = numbers.reduce(function (accumulator, currentNumber) {
 });
 console.log(newNumber5);
 
+//for each implementation of reduce
+
+var newNumbers6 = 0;
+
+numbers.forEach(function (currentNumber) {
+  newNumbers6 += currentNumber;
+});
+console.log(newNumbers6);
+
+// New ES6 features
+
 //Find - find the first item that matches from an array.
 
 //FindIndex - find the index of the first item that matches.
