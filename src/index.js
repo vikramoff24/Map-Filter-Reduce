@@ -53,4 +53,9 @@ console.log(newNumbers6);
 
 //Find - find the first item that matches from an array.
 
+var newNumbers7 = numbers.find(function (num) {
+  return num > 30;
+});
+console.log(newNumbers7);
+
 //FindIndex - find the index of the first item that matches.
