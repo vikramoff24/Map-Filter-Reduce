@@ -6,6 +6,7 @@ var newNumbers = numbers.map(function (x) {
   return x * 2;
 });
 console.log(newNumbers);
+v;
 //Filter - Create a new array by keeping the items that return true.
 
 //Reduce - Accumulate a value by doing something to each item in an array.
