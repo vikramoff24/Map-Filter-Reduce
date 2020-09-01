@@ -59,3 +59,9 @@ var newNumbers7 = numbers.find(function (num) {
 console.log(newNumbers7);
 
 //FindIndex - find the index of the first item that matches.
+
+var newNumbers8 = numbers.findIndex(function (index) {
+  return index > 30;
+});
+
+console.log(newNumbers8);
